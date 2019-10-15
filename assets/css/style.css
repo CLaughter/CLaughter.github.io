@@ -1,0 +1,147 @@
+
+body {
+  background-color: #33467c;
+  background-image: url("assets/images/01.png");
+
+}
+
+header {
+  background-color: #ffffff ;
+  border-color: #cccccc;
+  width:100%;
+  padding-left: 40px;
+}
+
+#heading {  
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;  
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: black;  
+}
+
+a:hover {
+  color: cyan;
+}
+
+h4 {
+  color: rgb(0, 89, 255);
+}
+
+#nav {
+  padding: 25px;
+  display: inline;
+  margin-right: 2%;
+  padding-bottom: 0;
+}
+
+#name {
+  background-color: #33467c;
+  padding: 30px;
+  color: white;
+  font-size: xx-large;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#about {
+  font-size: x-large;
+  border-right-color: #c00c00;
+  margin-right: 10px;
+  display: inline;
+}
+
+#portfolio {
+  font-size: x-large;
+  border-right-color: #c00c00;
+  padding-top: 10px;
+  margin-right: 5px;
+  display: inline;
+}
+
+#contact {
+  font-size: x-large;
+  display: inline;
+}
+
+#message {
+  margin-top: 10px;
+}
+
+.portfolio-img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+
+#full {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  /* margin: 70px;
+  padding: 50px; */
+  height: 960px;
+  border-radius: 20px;
+  border: #dddddd;
+  border-width: 2px;
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+  color: #777777;
+}
+
+#about-me-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer {
+  clear: both;
+  overflow: auto;
+  background-color: #666666;
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 30px;
+  height: 25px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+ }
+
+ #form {
+  text-align: left;
+  margin: 15px;
+}
+
+textarea, input {
+  width: 900px;
+}
+
+#submit-btn {
+  width: 15%;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  font-size: large;
+}
+
+footer {
+  height: 20px;
+  font-size: small;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: static;
+}
+
+
+
+
+ 
