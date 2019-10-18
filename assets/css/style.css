@@ -1,9 +1,9 @@
-.nav-link {
-  color: rgb(164, 213, 247);
+body {
+  background-color:rgb(24, 59, 48); 
 }
 
-a {
-  color: black;  
+.nav-link {
+  color: rgb(164, 213, 247);
 }
 
 a:hover {
@@ -14,48 +14,24 @@ h1 {
   color: rgb(223, 217, 217);
 }
 
-h2 {
-  margin: 10px;
-  color: black;
-}
-
 #pgTitle {
-  color: rgb(223, 217, 217);
-}
-
-h3 {
-  color: black;
+  color: rgb(196, 188, 188);
 }
 
 h4 {
-  color: rgb(0, 89, 255);
-}
-
-#canvas {
-  margin: 1px;
-  margin-top: 60px;
-  padding: 20px; 
+  color: rgb(164, 213, 247);
 }
 
 #about-me-img {
   float: left;
   margin-right: 10px;
-}
-
-img {
-  max-width:100%;
-  height:auto;
-  margin-right: 10px;
-  margin-bottom: 5px;
+  max-width:35%;
 }
 
 #full {
-  /* box-sizing: border-box; */
-  margin-top: 10px;
-  margin: 10px;
+  margin-top: 65px;
   background-color:rgb(24, 59, 48); 
-  padding:60px;
-  border-radius: 20px;
+  padding:50px;
   border: #dddddd;
   border-width: 2px;  
   text-align: left;
@@ -70,6 +46,10 @@ img {
 
 .txtColor2 {
   color: rgb(52, 118, 165);
+}
+
+.xtColor3 {
+  color: rgb(93, 93, 93);
 }
  
 #bottom {
