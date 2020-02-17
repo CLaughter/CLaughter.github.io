@@ -1,13 +1,10 @@
 CLaughter.github.io
 
-On this site, you will find my updated personal profile.
+Full Stack Web Developer providing services allowing clients to become more
+productive in their day-to-day activities. Keen on app development and a commitment to
+detail and time schedules are strong held values that have developed during my career.
+Applying my coding experience in individual and team projects.
 
-The main page identifies information about myself, the portfolio page lists
-some projects I have completed, as well as a Weather Station group project.
- The latter incorporates several APIs using jQuery and AJAX, but otherwise it
- is built with HTML, CSS, Javascript and Firebase for the database storage
- and retrieval.
+MERN stack, HTML/CSS, JavaScript, MySQL,Firebase, PHP-Laravel, Bootstrap, Heroku, GitHub, GitBash
 
- On the contact page, you will find links for my email, GitHub, LinkedIn and resume.
-
- Thanks for taking a look.
+Thanks for taking a look.
