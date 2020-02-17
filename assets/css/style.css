@@ -1,6 +1,6 @@
-/* html {
-  background: url(images/bg.jpg) no-repeat center center fixed;
-} */
+html {
+  background-color: rgb(24, 59, 48);
+}
 
 .nav-link {
   color: rgb(164, 213, 247);
