@@ -1,13 +1,89 @@
-html {
-  background-color: rgb(24, 59, 48);
+* {
+  text-decoration: none;
 }
 
-.nav-link {
-  color: rgb(164, 213, 247);
+body {
+  background-color: #f3f3f3;
 }
 
-a:hover {
-  color: cyan;
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  display: table-cell;
+}
+
+.header-logo img {
+  height: 100px;
+  padding: 10px 0px 10px 10px;
+  float: left;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding-top: 30px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+header nav ul li a {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.sub {
+  display: none;
+  background-color: rgb(70, 149, 223);
+  margin-left: 5%;
+  height: auto;
+}
+
+/* HAMBURGER MENU */
+.nav div {
+  height: 4px;
+  background-color: rgb(20, 15, 15);
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.nav {
+  width: 30;
+  display: block;
+  float: right;
+  margin: 1em 0 0 1em;
+  padding-right: 10px;
+}
+
+.one {
+  width: 30px;
+}
+
+.two {
+  width: 20px;
+}
+
+.three {
+  width: 25px;
+}
+
+.nav:hover div {
+  width: 30px;
+}
+
+#hamburger {
+  display: none;
+}
+
+ul li a:hover {
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -18,10 +94,6 @@ h1 {
   color: rgb(196, 188, 188);
 }
 
-h4 {
-  color: rgb(164, 213, 247);
-}
-
 #about-me-img {
   float: left;
   margin-right: 10px;
@@ -29,27 +101,23 @@ h4 {
 }
 
 #full {
-  margin-top: 65px;
-  background-color: rgb(24, 59, 48);
+  margin-top: 5px;
   padding: 50px;
   border: #dddddd;
   border-width: 2px;
   text-align: left;
   font-size: 30px;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: rgb(223, 217, 217);
+  color: black;
 }
 
 .txtColor {
-  color: rgb(164, 213, 247);
+  color: rgb(4, 135, 228);
 }
 
 .txtColor2 {
-  color: rgb(52, 118, 165);
-}
-
-.xtColor3 {
-  color: rgb(93, 93, 93);
+  color: rgb(38, 85, 119);
+  font-size: medium;
 }
 
 #bottom {
@@ -69,4 +137,16 @@ h4 {
 
 #footer {
   position: static;
+}
+
+@media screen and (max-width: 425px) {
+  header h1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  nav.menu {
+    width: 100%;
+    left: -100%;
+  }
 }
