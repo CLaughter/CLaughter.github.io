@@ -3,53 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/reboot.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <!-- Collapsed content -->
-          <ul>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="chris_portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <h2 class="text-white">Chris Laughter</h2>
+    <header class="full-screen-header">
+      <nav class="nav nav-top">
+        <img class="logo" alt="Logo" />
+        <ul class="nav-list">
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html" class="contact">Contact</a></li>
+        </ul>
       </nav>
-    </div>
-
+      <h1 class="title">Welcome To My Funhouse</h1>
+      <span class="sub-title">Click for About Me</span>
+      <img class="scroll-down-icon" alt="Scroll Down Icon" />
+      <p class="scroll-down-text">Passions</p>
+    </header>
     <main>
+      <section class="section">
+        <h2 class="section-title">
+          This is the small set of core technologies I continue working on as I
+          aim to become an expert in each one.
+        </h2>
+        <div class="curriculum-grid">
+          <div class="curriculum-grid-item">
+            <img class="iconHtml" src="#" alt="HTML 5 Icon" />
+            <p>
+              Start with the basics by learning HTML/CSS to build your first
+              website
+            </p>
+          </div>
+          <div class="curriculum-grid-item">
+            <img class="iconNodejs" src="#" alt="Node JS Icon" />
+            <p>
+              Build interactive web applications with the world’s most popular
+              backend
+            </p>
+          </div>
+          <div class="curriculum-grid-item">
+            <img class="iconVsc" src="#" alt="Visual Studio Code Icon" />
+            <p>
+              Use the latest technology for editing and creating amazing web
+              applications
+            </p>
+          </div>
+          <div class="curriculum-grid-item">
+            <img class="iconDb" src="#" alt="Database Icon" />
+            <p>
+              Manage application data by learning SQL and NoSQL database
+              architecture
+            </p>
+          </div>
+          <div class="curriculum-grid-item">
+            <img class="iconEdit" src="#" alt="Web Page Edit Icon" />
+            <p>
+              Create stunning designs by using modern design tools like Figma
+              and Sketch
+            </p>
+          </div>
+          <div class="curriculum-grid-item">
+            <img class="iconReact" src="#" alt="React Icon" />
+            <p>Use the most popular frontend framework to create modern PWAs</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="nav nav-bottom">
+        <img
+          class="logo"
+          src="./images/logo_connecting.png"
+          alt="Connecting The Dots Logo"
+        />
+        <ul class="nav-list">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- <span>
       <div id="full">
         <h3 id="pgTitle">About Me</h3>
         <hr />
@@ -124,25 +158,6 @@
           <p>Thanks for taking a look at my site.</p>
         </h5>
       </div>
-    </main>
-
-    <section id="bottom">
-      <footer id="footer">Copyright ©</footer>
-    </section>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    </span> -->
   </body>
 </html>
