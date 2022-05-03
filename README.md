@@ -23,7 +23,9 @@ Now that things seem to be correcting, I have redirected back to Web Development
 refreshing where bootcamp left off. Currently, I have been completing several online
 courses including SQL, CSS, JavaScript, node.js, react, etc...
 I am looking for an opportunity with an organization that will allow me to grow in my
-WebDev pursuit and appreciate the chance to join your team of determined professionals.
+WebDev pursuit and appreciate the chance to join a team of determined professionals
+as I continue becoming an expert in a small set of core technologies before expanding
+to a wider net of trends.
 
 MERN stack, HTML/CSS, JavaScript, MySQL,Firebase, Bootstrap, Heroku, GitHub, GitBash...
 
