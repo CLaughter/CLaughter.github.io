@@ -31,7 +31,7 @@ body {
   align-items: center;
   background-color: #0c1110;
   padding: 0 1rem;
-  height: 9vh;
+  height: 7vh;
   font-size: 1.75rem;
   opacity: .6;
 }
@@ -258,8 +258,6 @@ textarea {
   color: rgb(169, 162, 162);
   font-size: 1rem;
 } 
-
-
 
 /* Contact page */
 #full {
