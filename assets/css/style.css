@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
+  padding: 0;
   font-family: Cambria;
   color: #1b2522;
 }
@@ -23,6 +23,16 @@ body {
 
   color: white;
   position: relative;
+}
+
+.full-screen-header-pfolo,
+.full-screen-header-contact {
+margin-top: 0;
+
+}
+
+.subFull {
+  padding-top: 3em;
 }
 
 .nav {
@@ -45,7 +55,7 @@ body {
 }
 
 img.logo {
-  width: 60px;
+  width: 50px;
    content: url(../images/logo.png)
 }
 
@@ -237,9 +247,17 @@ textarea {
   border-radius: 0.3em;
 }
 
-.nav-bottom {
+.nav-bottom {  
   opacity: .3;
-  height: 7.5vh;
+  height: 5vh;
+}
+
+.nav-bottom-contact {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: .3;
+  height: 5vh;
 }
 
 /* Index modal */
@@ -261,7 +279,7 @@ textarea {
 
 /* Contact page */
 #full {
-  margin-top: 5px;
+  margin-top: 0;
   padding: 50px;
   border: #dddddd;
   border-width: 2px;
@@ -277,6 +295,7 @@ textarea {
 a, .textColor {
   text-decoration: none;
   color: rgb(243, 230, 230);
+  word-wrap: break-word;
 }
 
 
