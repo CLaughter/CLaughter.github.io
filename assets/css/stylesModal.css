@@ -57,6 +57,8 @@ nav-top {
   padding: 1rem;
   border-radius: .25rem;
   background-color: white;
+  font-family: cursive;
+  font-size: 1.5rem;
   overflow: auto;
 }
 
@@ -72,18 +74,6 @@ nav-top {
   
 }
 
-.modal {
-  height: 80vh;
-  width: 900px;
-  max-width: 80%;
-  overflow: auto;
-  padding: 1em;
-  background-color: white;
-  border-radius: 1em;
-  display: flex;
-  flex-direction: column;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -95,6 +85,7 @@ nav-top {
 .title {
   font-size: 1.5rem;
   padding-top: 1rem;
+  color: rgb(169, 162, 162);
 }
 
 .close-button {
@@ -110,7 +101,6 @@ nav-top {
 }
 
 .text-body {
-  /* flex-grow: 1; */
   padding: 1rem;
 }
 
@@ -139,10 +129,16 @@ nav-top {
 }
 
 #close-modal-btn {
-  background-color: #c33;
+  background-color: #c00c00;
 }
 
 #close-modal-btn:hover,
 #close-modal-btn:focus {
-  background-color: #a11;
+  background-color: rgb(131, 49, 49);
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: black;
 }
