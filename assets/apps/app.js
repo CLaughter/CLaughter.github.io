@@ -1,5 +1,6 @@
 const oMBtn = document.querySelector("#open-modal-btn");
-const cMBtn = document.querySelector("#close-modal-btn");
+const cMBtn = document.querySelector(".close-button");
+const cModBtn = document.querySelector("#close-modal-btn");
 const mod = document.querySelector("#modal");
 const oL = document.querySelector("#overlay");
 
@@ -9,6 +10,7 @@ oMBtn.addEventListener("click", () => {
 });
 
 cMBtn.addEventListener("click", closeModal);
+cModBtn.addEventListener("click", closeModal);
 
 oL.addEventListener("click", closeModal);
 
