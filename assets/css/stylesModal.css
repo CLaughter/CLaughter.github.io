@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #555;
+}
+
+.modal {
+  height: 80vh;
+  width: 900px;
+  max-width: 80%;
+  /* overflow: auto; replaced in .text-body for scroll bar location*/
+  padding: 1em;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 1px solid #777;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  align-self: flex-start;
+  padding: 0.5rem;
+}
+
+.text-body {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  border-top: 1px solid #777;
+}
+
+.footer .btn {
+  margin-right: 0.5rem;
+}
+
+.footer .btn:last-child {
+  margin-right: initial;
+}
+
+.btn {
+  padding: 0.5em;
+  font-size: inherit;
+  border-radius: 0.3em;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-success {
+  background-color: #1ca;
+}
+
+.btn.btn-success:hover,
+.btn.btn-success:focus {
+  background-color: #1a8;
+}
+
+.btn.btn-danger {
+  background-color: #c33;
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus {
+  background-color: #a11;
+}
