@@ -1,11 +1,18 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+margin: 0;
+padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Cambria;
   color: #1b2522;
+  background-color: #b4b0b0;
 }
 
 /* Index page and general styling for all pages */
@@ -25,24 +32,24 @@ body {
   position: relative;
 }
 
-.full-screen-header-pfolo,
+.full-screen-header-pfolio,
 .full-screen-header-contact {
 margin-top: 0;
+padding-top: 2em;
 }
 
-.subFull {
-  padding-top: 3em;
-}
-
-.nav {
+.nav, .navHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0c1110;
+  background-color: rgb(1, 1, 47);
   padding: 0 1rem;
-  height: 7vh;
   font-size: 1.75rem;
   opacity: .6;
+}
+
+.navHome{
+  background-color: #0c1110;
 }
 
 .nav-top {
@@ -126,6 +133,7 @@ img.scroll-down-icon {
 
 .section {
   padding: 2rem;
+  background-color: white;
 }
 
 .section-title {
@@ -178,30 +186,118 @@ img.iconReact {
   content: url(../images/react_icon.svg)
 }
 
-.section-accent {
-  padding: 1rem;
-  background-color: #0af;
-  display: flex;
-  flex-direction: column;
+.nav-bottom,
+.nav-bottom-contact {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  opacity: .3;
+}
+
+.pgTitle {
+  margin-top: .5em;
+  margin-bottom: 0;
+  padding-top: 25px;
+  color: rgb(26, 26, 62);
+  text-align: center;
+}
+
+#subContainerPfolio,
+#subContainerContact {
+  display: grid;
+  justify-content: center;
   align-items: center;
+  text-align:center;
+  padding: 0 .5em;
+  width: 100%;
+}
+#subContainerContact {
+  display: grid;
+  display: grid;
+  padding: 5px, 20px;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 50px;
 }
 
-.free-title {
-  color: white;
-  margin: 0;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+.hRLine {
+  border: 1px solid black;
+  width: 80%;
+  background-color: rgb(148, 131, 134);
 }
 
-.free-sub-title {
-  color: white;
-  max-width: 350px;
-  font-size: 1.1rem;
+.full-grid-item {
+  justify-content: center;
 }
+
+.txtColor {
+  font-size: 2rem;
+  color: rgb(26, 26, 62);
+}
+
+.txtColor2 {
+  font-size: 1.25rem;
+  color: rgb(53, 53, 90);
+ }
+
+p {
+  color: rgb(26, 26, 62);
+}
+
+#links {
+  width: auto;
+  text-align: c;
+}
+
+.contactLink {
+  display: flex;
+}
+
+.contactA {
+  font-size: 2rem;
+  padding-left: 1em;
+} 
+
+#about-me-img {
+  float: left;
+  margin-right: 10px;
+  max-width: 35%;
+}
+
+#full-grid {
+  display: grid;
+  padding: 5px, 20px;
+  grid-template-columns: repeat(2, minmax(500px, 500px));
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.full-grid-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.aHome {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color:rgb(53, 53, 90);
+  word-wrap: break-word;
+}
+
+.sectionForm {
+  display: grid;
+  justify-content: center}
 
 .form {
+  width: 80%;
   max-width: 900px;
-  margin: 0 auto;
+  height: 50vh;
+  padding: 1em;
 }
 
 .form label {
@@ -245,54 +341,6 @@ textarea {
 .btn-square {
   border-radius: 0.3em;
 }
-
-.nav-bottom,
-.nav-bottom-contact {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  opacity: .3;
-  height: 7vh;
-}
-
-/* Index modal */
-#about-me-img {
-  float: left;
-  margin-right: 10px;
-  max-width: 35%;
-}
-
-/* Portfolio page */
-#pgTitle {
-  color: rgb(196, 188, 188);
-}
-
-.txtColor2 {
-  color: rgb(169, 162, 162);
-  font-size: 1rem;
-} 
-
-/* Contact page */
-#full {
-  margin-top: 0;
-  padding: 50px;
-  border: #dddddd;
-  border-width: 2px;
-  text-align: left;
-  font-size: 25px;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: black;
-  background-color: #0c1110;
-  opacity: .6;
-  color: rgb(169, 162, 162);
-}
-
-a, .textColor {
-  text-decoration: none;
-  color: rgb(243, 230, 230);
-  word-wrap: break-word;
-}
-
 
 
 

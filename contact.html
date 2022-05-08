@@ -16,24 +16,31 @@
       </ul>
     </nav>      
   </header>
-  <div id="full">
-    <div class="subFull">
-    <h3 id="pgTitle">Contact</h3>
-    <hr>
-
-    <h4>email: <a href="mailto: chrisllaughter@gmail.com">chrisllaughter@gmail.com</a></h4>
-    <br>
-    <h4>GitHub: <a href="https://github.com/CLaughter">https://github.com/CLaughter</a></h4>
-    <br>
-    <h4>LinkedIn: <a href="https://www.linkedin.com/in/chris-laughter/">www.linkedin.com/in/chris-laughter/</a></h4>
-    <br>
-    <a href="./assets/Resume/Cres.pdf"><h3>Resume</h3></a>
-    <br>
-    <h4>801-360-0821</h4>
-  </div>
-  </div>
+  <section id="container">
+    <h1 class="pgTitle">Contact</h1>
+    <hr class="hRLine"/>
+    <div id="subContainerContact">
+      <div id="links">
+      <p class="contactLink txtColor">email:
+        <a class="contactA txtColor2">chrisllaughter@gmail.com</a>
+      </p>
+      <br>
+      <p class="contactLink txtColor">GitHub:
+        <a class="contactA txtColor2">https://github.com/CLaughter</a>
+      </p>
+      <br>
+      <p class="contactLink txtColor">linkedin:
+        <a class="contactA txtColor2">www.linkedin.com/in/chris-laughter/</a>
+      </p>
+      <br>
+      <a class="txtColor" href="./assets/Resume/Cres.pdf"><h1>Resume</h1></a>
+      </div>
+    </div>
+  </section>
   <section class="section">
-    <h2 class="section-title">Contact</h2>
+    <h2 class="section-title">Send Me A Message</h2>
+
+    <div class="sectionForm">
     <form class="form"">
       <label for="name">Name</label>
       <input type="text" name="name" id="name" />
@@ -42,8 +49,8 @@
       <label for="message">Message</label>
       <textarea name="message" id="message"></textarea>
       <div class="btn-container">
-      <button class="btn btn-square" type="submit"><a href="mailto: chrisllaughter@gmail.com">Send</a></button>
-    
+      <button class="btn btn-square" type="submit"><a href="#">Send</a></button>
+      </div>
   </div>
     </form>
   </section>
