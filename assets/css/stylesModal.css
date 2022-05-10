@@ -62,7 +62,7 @@ nav-top {
   overflow: auto;
 }
 
-#overlay {
+#backdrop {
   display: none;
   position: absolute;
   height: 100vh;
@@ -74,7 +74,7 @@ nav-top {
   
 }
 
-.header {
+.headerModal {
   display: flex;
   justify-content: space-between;
   padding: 0 1rem;
@@ -82,44 +82,32 @@ nav-top {
   padding-bottom: 0.5rem;
 }
 
-.title {
+.titleModal {
   font-size: 1.5rem;
   padding-top: 1rem;
   color: rgb(169, 162, 162);
 }
 
-.close-button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-  align-self: flex-start;
-  padding: 0.5rem;
-}
-
-.text-body {
+.text-bodyModal {
   padding: 1rem;
 }
 
-.footer {
+.footerModal {
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem;
   border-top: 1px solid #777;
 }
 
-.footer .btn {
+.footerModal .btnModal {
   margin-right: 0.5rem;
 }
 
-.footer .btn:last-child {
+.footerModal .btnModal:last-child {
   margin-right: initial;
 }
 
-.btn {
+.btnModal {
   padding: 0.5em;
   font-size: inherit;
   border-radius: 0.3em;
@@ -137,7 +125,7 @@ nav-top {
   background-color: rgb(131, 49, 49);
 }
 
-a {
+a.closeModal {
   text-decoration: none;
   font: inherit;
   color: black;

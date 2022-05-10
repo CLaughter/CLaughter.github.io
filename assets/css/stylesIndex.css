@@ -3,8 +3,8 @@
 }
 
 html {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -34,11 +34,12 @@ body {
 
 .full-screen-header-pfolio,
 .full-screen-header-contact {
-margin-top: 0;
-padding-top: 2em;
+  margin-top: 0;
+  padding-top: 2em;
 }
 
-.nav, .navHome {
+.nav,
+.navHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +49,7 @@ padding-top: 2em;
   opacity: .6;
 }
 
-.navHome{
+.navHome {
   background-color: #0c1110;
 }
 
@@ -62,7 +63,7 @@ padding-top: 2em;
 
 img.logo {
   width: 50px;
-   content: url(../images/logo.png)
+  content: url(../images/logo.png)
 }
 
 .nav-list {
@@ -88,13 +89,15 @@ img.logo {
   text-transform: uppercase;
   font-size: 3rem;
   margin: 0;
+  margin-top: .5em;
   text-align: center;
 }
 
 .sub-title {
-  font-size: 1.5rem;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin: .5em 0;
+  color: white;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -207,10 +210,11 @@ img.iconReact {
   display: grid;
   justify-content: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
   padding: 0 .5em;
   width: 100%;
 }
+
 #subContainerContact {
   display: grid;
   display: grid;
@@ -238,7 +242,7 @@ img.iconReact {
 .txtColor2 {
   font-size: 1.25rem;
   color: rgb(53, 53, 90);
- }
+}
 
 p {
   color: rgb(26, 26, 62);
@@ -256,7 +260,7 @@ p {
 .contactA {
   font-size: 2rem;
   padding-left: 1em;
-} 
+}
 
 #about-me-img {
   float: left;
@@ -280,18 +284,16 @@ p {
 
 }
 
-.aHome {
-  color: white;
-}
 a {
   text-decoration: none;
-  color:rgb(53, 53, 90);
+  color: rgb(53, 53, 90);
   word-wrap: break-word;
 }
 
 .sectionForm {
   display: grid;
-  justify-content: center}
+  justify-content: center
+}
 
 .form {
   width: 80%;
@@ -342,7 +344,149 @@ textarea {
   border-radius: 0.3em;
 }
 
+span.disabled {
+  display: flex;
+}
+
+/* Modal actuator */
+.modal-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  padding: 0;
+  align-items: center;
+  border: 1px solid #f5ce99;
+  border-radius: 10px;
+}
+
+.modal-control {
+  padding: 0 .5em;
+  text-align: center;
+}
+
+.modal-container:hover,
+.sub-title:hover,
+.modal-container:active,
+.sub-title:active {
+  border-color: #fa923f;
+  color: #fa923f;
+}
+
+button {
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover,
+button:active {
+  border-color: #f6740a;
+  color: #f6740a;
+}
+
+/* Modal */
+.backdrop {
+  display: none;
+  position: fixed;
+  width: 70%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 2rem;
+  z-index: 100;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  height: 70vh;
+  width: 65%;
+  padding: 1rem;
+  background-color: white;
+  padding-bottom: 0;
+  box-shadow: 10px, rgba(178, 178, 178, 0.4);
+  border-radius: .5rem;
+  overflow: auto;
+}
+
+.titleModal {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: rgb(169, 162, 162);
+}
+
+.text-bodyModal {
+  padding: 1rem;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+.closeModal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c00c00;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  align-self: flex-start;
+  padding: 0.5rem;
+}
+
+.footerModal {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  border-top: 1px solid #777;
+}
 
 
 
+.open {
+  display: block;
+}
 
+
+/* ************************************************************************* */
+/* For Desktop View */
+/* @media screen and (min-width: 480px) {
+
+  .nav-top,
+  .nav-bottom-contact,
+  #subContainerContact {
+    display: flex;
+  }
+
+  .txtColor,
+  .txtColor2 {
+    display: flex;
+  }
+} */
+
+
+/* ************************************************************************* */
+/* For Mobile Portrait View */
+/* @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
+
+  /* Contact page */
+/* .nav-top,
+  .nav-bottom-contact,
+  #subContainerContact {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.txtColor,
+.txtColor2 {
+  display: block;
+  padding: .25em;
+  text-align: left;
+  inline-size: 300px;
+}
+
+h1 {
+  text-align: center;
+} */
