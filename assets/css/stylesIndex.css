@@ -2,11 +2,7 @@
   box-sizing: border-box;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-}
-
+html,
 body {
   margin: 0;
   padding: 0;
@@ -135,13 +131,13 @@ img.scroll-down-icon {
 }
 
 .section {
-  padding: 2rem;
+  padding: 2rem 0;
   background-color: white;
 }
 
 .section-title {
   margin: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
   font-size: 2rem;
   text-align: center;
   color: black;
@@ -217,7 +213,6 @@ img.iconReact {
 
 #subContainerContact {
   display: grid;
-  display: grid;
   padding: 5px, 20px;
   justify-content: center;
   row-gap: 20px;
@@ -250,7 +245,7 @@ p {
 
 #links {
   width: auto;
-  text-align: c;
+  text-align: center;
 }
 
 .contactLink {
@@ -260,6 +255,7 @@ p {
 .contactA {
   font-size: 2rem;
   padding-left: 1em;
+  cursor: pointer;
 }
 
 #about-me-img {
@@ -290,14 +286,20 @@ a {
   word-wrap: break-word;
 }
 
+.resume {
+  margin-top: 0;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
 .sectionForm {
   display: grid;
-  justify-content: center
+  justify-content: center;
+  
 }
 
 .form {
-  width: 80%;
-  max-width: 900px;
+  max-width: 600px;
   height: 50vh;
   padding: 1em;
 }
@@ -318,6 +320,7 @@ textarea {
   padding: 0.5em;
   color: inherit;
   font-family: inherit;
+  font-size: 1.5rem;
 }
 
 .form textarea {
@@ -441,8 +444,6 @@ button:active {
   padding: 0.5rem;
   border-top: 1px solid #777;
 }
-
-
 
 .open {
   display: block;
