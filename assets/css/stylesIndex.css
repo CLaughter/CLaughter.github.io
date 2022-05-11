@@ -140,6 +140,7 @@ img.scroll-down-icon {
   margin-bottom: 2em;
   font-size: 2rem;
   text-align: center;
+  max-width: 850px;
   color: black;
 }
 
@@ -449,45 +450,22 @@ button:active {
   display: block;
 }
 
-
-/* ************************************************************************* */
-/* For Desktop View */
-/* @media screen and (min-width: 480px) {
-
-  .nav-top,
-  .nav-bottom-contact,
-  #subContainerContact {
-    display: flex;
+@media (max-width: 500px) {
+  #full-grid {
+    display: block;
+    grid-template-columns: none;
+    padding: 5px;
   }
 
-  .txtColor,
+  .txtColor {
+    font-size: 1.75rem;
+  }
+
   .txtColor2 {
-    display: flex;
+    font-size: 1rem;
   }
-} */
 
-
-/* ************************************************************************* */
-/* For Mobile Portrait View */
-/* @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
-
-  /* Contact page */
-/* .nav-top,
-  .nav-bottom-contact,
-  #subContainerContact {
-    display: flex;
-    justify-content: center;
+  .contactLink {
+    display: block;
   }
 }
-
-.txtColor,
-.txtColor2 {
-  display: block;
-  padding: .25em;
-  text-align: left;
-  inline-size: 300px;
-}
-
-h1 {
-  text-align: center;
-} */
