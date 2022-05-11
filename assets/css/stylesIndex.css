@@ -468,4 +468,8 @@ button:active {
   .contactLink {
     display: block;
   }
+
+  .curriculum-grid {
+    padding: 1em;
+  }
 }
