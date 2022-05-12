@@ -459,6 +459,18 @@ button:active {
     padding: 5px;
   }
 
+  .backdrop {
+    width: 95%;
+  }
+
+  .modal {
+    width: 85%;
+  }
+
+  .text-bodyModal {
+    padding: 1em 0;
+  }
+
   .txtColor {
     font-size: 1.75rem;
   }
