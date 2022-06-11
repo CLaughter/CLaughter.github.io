@@ -204,7 +204,7 @@ img.iconReact {
   text-align: center;
 }
 
-#subContainerPfolio,
+.subContainerPfolio,
 #subContainerContact {
   display: grid;
   justify-content: center;
@@ -287,6 +287,12 @@ a {
   text-decoration: none;
   color: rgb(53, 53, 90);
   word-wrap: break-word;
+}
+
+.subListing {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .resume {
